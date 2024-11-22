@@ -1,0 +1,98 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kaushan+Script&family=Work+Sans:ital,wght@1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Kaushan Script, Helvetica, sans-serif;
+}
+header{
+    font-size: 2em;
+    background-color: rgb(1, 1, 1);
+    color: rgb(240, 240, 240);
+    padding: 10px;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0px 50px ;
+}
+nav a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+#ofertas{
+    text-align: right;
+    padding: 0px 100px 0px 0px;
+    background-color: rgba(247, 247, 235, 0.541);
+}
+#ofertas:hover aside {
+    display: block;
+
+}
+
+aside {
+    background-color: rgba(255, 255, 255, 0.502);
+    padding: 0px 0px 0px 0px;
+    width: 250px;
+    float: right;
+    margin-right: 06px;
+    text-align: center;
+    display: none;
+    
+}
+
+aside ul {
+    list-style: none;
+    text-decoration: none;
+}
+aside a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.img {
+    display: flex;
+
+}
+main{
+    background-image: url(https://www.saboresajinomoto.com.br/uploads/images/posts/receitaspaes_5b0848467e2a98.38354925.jpg);
+    background-repeat: repeat-x;
+    position: static;
+    padding: 100px;
+}
+main h1{
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.205);
+    box-shadow: 1px 0px 10px ;
+}
+div h2 { 
+    padding: 0px 0px 0px 0px ;
+
+}
+article{
+    padding: 1px 0px 0px 0px;
+
+}
+article h3{
+    background-color: rgba(0, 0, 0, 0.247);
+    padding: 100x 0px 0px 0px;
+}
+footer{
+    background-color: aqua;
+    width:auto;
+    padding: 100px 0px 10px 0px ;
+    text-align: justify;
+    padding: 50px 10px 100px 0px;
+}

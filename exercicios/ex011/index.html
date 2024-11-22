@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias HTML5</title>
+    
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente acessar seu site por varios dispositivos diferentes ou simplismente diminua ou aumente seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt=" imagem flexivel">
+    </picture>
+    <!-- <h1>Reprodução de áudios em HTML5. </h1>
+    <audio src="midia/bach.mp3"controls autoplay></audio> -->
+    <!--Formatos conpativéis MP3 WAV OGG -->
+    <audio preload="metadata" controls autoplay>
+        <source src="midia/bach.mp3" type="audio/mpeg">
+    </audio>
+    <p>Caso o navegador não reproduza audio, você pode baixar o arquivo <a href="midia/bach.mp3"> Clique aqui para baixar o arquivo </a></p>
+</body>
+</html>
